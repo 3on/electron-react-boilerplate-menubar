@@ -6164,6 +6164,11 @@ electron-log@^4.0.6:
   resolved "https://registry.yarnpkg.com/electron-log/-/electron-log-4.0.6.tgz#7d4244082a6f5ae3838f3fa4cd7271f8dd610bf1"
   integrity sha512-inoIFKld98aRAp/l5IzLFx8Oc9sp+SKlTCrVgZKWK+qcI92rT574Ybgcah5dU8G3485vc7ClFIEfCf/IERyBJA==
 
+electron-positioner@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/electron-positioner/-/electron-positioner-4.1.0.tgz#e158f8f6aabd6725a8a9b4f2279b9504bcbea1b0"
+  integrity sha512-726DfbI9ZNoCg+Fcu6XLuTKTnzf+6nFqv7h+K/V6Ug7IbaPMI7s9S8URnGtWFCy5N5PL4HSzRFF2mXuinftDdg==
+
 electron-publish@22.3.6:
   version "22.3.6"
   resolved "https://registry.yarnpkg.com/electron-publish/-/electron-publish-22.3.6.tgz#97500b832d5b281785882100d7c01dbf55dabd03"
@@ -10084,6 +10089,13 @@ memory-fs@^0.5.0:
   dependencies:
     errno "^0.1.3"
     readable-stream "^2.0.1"
+
+menubar@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/menubar/-/menubar-9.0.1.tgz#49d8d73ee0b515d6621d644fa96647e3dfc8ac3c"
+  integrity sha512-r4NdeG3CDb9BQ0w8WffWw2JT+Pugn22hKCb4niNuXMzK3WphY+RX2WmTPlZdIZfpNxVNKAo/mbuGfVP6LGGeJw==
+  dependencies:
+    electron-positioner "^4.1.0"
 
 meow@^3.1.0, meow@^3.7.0:
   version "3.7.0"
